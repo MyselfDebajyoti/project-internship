@@ -307,7 +307,7 @@ const Navbar = () => {
               <Link
                 key={item.label}
                 href={item.href}
-                className="relative text-white hover:text-pink-500 transition-colors duration-200 group"
+                className="relative text-white hover:text-pink-300 transition-colors duration-200 group"
               >
                 {item.label}
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-pink-500 transform scale-x-0 origin-left transition-transform duration-200 group-hover:scale-x-100"></span>
