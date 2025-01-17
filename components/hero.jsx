@@ -1,4 +1,4 @@
-import { Permanent_Marker } from "@next/font/google";
+import { Permanent_Marker } from "next/font/google";
 
 const permanentMarker = Permanent_Marker({
   subsets: ["latin"], // Choose the subset you need
