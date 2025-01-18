@@ -1,5 +1,5 @@
 import React from "react";
-import { ThreeDCardDemo } from "@/components/cardDemo";
+import { AnimatedPinDemo } from "@/components/cardDemo";
 
 const AboutUs = () => {
   return (
@@ -11,8 +11,8 @@ const AboutUs = () => {
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center">
         {/* Image Section */}
-        <div className="rounded-lg overflow-hidden">
-          <ThreeDCardDemo />
+        <div className="rounded-lg overflow-hidden w-[100%]">
+          <AnimatedPinDemo />
         </div>
 
         {/* Content Section */}
