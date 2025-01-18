@@ -297,7 +297,9 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="text-white font-semibold text-lg">
               Kingsukh
-              <span className="block text-sm">Guest House</span>
+              <span className="block text-sm text-pink-500 font-marker">
+                Guest House
+              </span>
             </Link>
           </div>
 
@@ -317,7 +319,7 @@ const Navbar = () => {
 
           {/* Book Now Button */}
           <div className="hidden lg:block">
-            <button className="bg-pink-500 text-white px-6 py-2 rounded-md hover:bg-pink-800 transition-colors duration-200">
+            <button className="bg-pink-500 text-white  font-marker px-6 py-2 rounded-md hover:bg-pink-800 transition-colors duration-200">
               BOOK NOW
             </button>
           </div>
@@ -351,7 +353,7 @@ const Navbar = () => {
                   ))}
                 </div>
                 <div className="mt-6">
-                  <button className="w-full bg-pink-500 text-white px-6 py-2  hover:bg-white transition-colors duration-200">
+                  <button className="w-full bg-pink-500 text-white px-6 py-2 rounded-md  hover:bg-white transition-colors duration-200">
                     BOOK NOW
                   </button>
                 </div>
