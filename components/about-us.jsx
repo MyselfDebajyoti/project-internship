@@ -18,12 +18,20 @@ const AboutUs = () => {
         {/* Content Section */}
         <div className="space-y-6">
           <div>
+            <div className="flex items-center gap-4 mb-2">
+              <p className="inline-block text-pink-500 uppercase tracking-wider text-2xl md:text-2xl lg:text-3xl font-semibold  py-3 md: md:py-4 font-marker ">
+                ABOUT US
+              </p>
+              <div className="h-0.5 w-16 bg-pink-500"></div>
+            </div>
             {/* <span className="text-pink-500 uppercase tracking-wider text-sm font-semibold font-marker">
               About Us
             </span> */}
-            <span className="inline-block text-pink-500 uppercase tracking-wider text-2xl md:text-2xl lg:text-3xl font-semibold  py-3 md: md:py-4 font-marker ">
+            {/* <span className="inline-block text-pink-500 uppercase tracking-wider text-2xl md:text-2xl lg:text-3xl font-semibold  py-3 md: md:py-4 font-marker ">
               About Us
-            </span>
+            </span> */}
+
+            <div></div>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 text-gray-900">
               The Best Holidays Start Here!
             </h2>
