@@ -7,7 +7,7 @@ export default function BookingCard({ id, url, description, title, price }) {
   const [isLiked, setIsLiked] = useState(false);
 
   return (
-    <div className="w-full max-w-md rounded-lg shadow-xl bg-white shadow-pink-500/70">
+    <div className="w-full max-w-md rounded-lg shadow-lg bg-white shadow-pink-300/70">
       {/* Card Header with Image */}
       <div className="relative">
         <Image

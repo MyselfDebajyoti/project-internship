@@ -189,7 +189,7 @@ const RoomSection = () => {
   ];
 
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white pb-20">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <div className="flex items-center gap-2 mb-2">
