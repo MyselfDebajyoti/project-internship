@@ -167,8 +167,10 @@
 
 import React from "react";
 import BookingCard from "./booking-card";
+import Gallery from "./gallery";
+import Image from "next/image";
 
-const RoomSection = () => {
+const GallerySection = () => {
   const rooms = [
     {
       id: 1,
@@ -192,32 +194,18 @@ const RoomSection = () => {
     <div className="w-full bg-white pb-20">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <div className="flex items-center gap-2 mb-2">
-            <p className="inline-block text-pink-500 uppercase tracking-wider text-2xl md:text-2xl lg:text-3xl font-semibold py-3 md:py-4 font-marker">
-              OUR ROOMS
+          <div className="flex justify-center items-center gap-4 mb-2">
+            <p className="inline-block text-pink-500 uppercase tracking-wider text-2xl md:text-2xl lg:text-3xl font-bold py-3 md:py-4 font-marker">
+              GALLERY
             </p>
             <div className="h-0.5 w-16 bg-pink-500"></div>
           </div>
-
-          <h1 className="text-3xl md:text-4xl font-bold mt-2 text-gray-900">
-            The Most Memorable Rest
-          </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8">
-          {rooms.map((room) => (
-            <BookingCard
-              key={room.id}
-              url={room.imageUrl}
-              description={room.description}
-              title={room.title}
-              price={room.price}
-            />
-          ))}
-        </div>
+        <Gallery></Gallery>
       </div>
     </div>
   );
 };
 
-export default RoomSection;
+export default GallerySection;
