@@ -84,7 +84,7 @@ const StatsCounter = () => {
               {Math.round(customersCount)}+
             </div>
             <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-black">
-              Happy Customers
+              Happy Customerss
             </div>
           </div>
         </div>
