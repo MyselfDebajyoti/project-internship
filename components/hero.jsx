@@ -63,7 +63,10 @@ const Hero = () => {
   return (
     <div className="relative h-screen -mb-16 md:-mb-24 lg:-mb-32">
       {/* Container with rounded corners */}
-      <div className="absolute inset-0 rounded-b-[1rem] overflow-hidden shadow-2xl">
+      <div
+        className="absolute inset-0 rounded-b-[1rem] overflow-hidden shadow-2xl"
+        id="hero"
+      >
         {/* Background Image */}
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center"

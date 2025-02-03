@@ -5,6 +5,8 @@ import RoomSection from "@/components/rooms";
 import ServicesSection from "@/components/services";
 import StatsCounter from "@/components/customer-count";
 import GallerySection from "@/components/gallery-two";
+import ContactForm from "@/components/contact";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <main>
@@ -15,6 +17,8 @@ export default function Home() {
       <ServicesSection />
       <StatsCounter />
       <GallerySection />
+      <ContactForm />
+      <Footer />
     </main>
   );
 }

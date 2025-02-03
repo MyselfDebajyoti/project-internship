@@ -59,7 +59,7 @@ const AboutUs = () => {
           </div>
 
           <button
-            className="bg-pink-500 text-white px-8 py-3 rounded-md font-marker
+            className="bg-pink-500 text-white px-8 py-3 rounded-md 
             hover:bg-pink-600 transition-colors duration-300 text-lg font-medium"
           >
             BOOK NOW
